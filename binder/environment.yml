@@ -1,0 +1,33 @@
+name: JupyterLab environment yml
+
+channels:
+  - default  
+  - conda-forge
+dependencies:
+  - appmode
+  - pip
+  - python
+  - notebook
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  - ipykernel
+  - ipyleaflet    
+  - unidecode    
+  - numpy
+  - matplotlib
+  - pandas
+  - IPython  
+  - altair
+  - seaborn  
+  - scikit-learn     
+  - xlrd  
+  - traittypes   
+  - openpyxl
+  - xlwt
+  - rise
+  - vega
+  - traitlets
+  - pip:      
+      - jupyter-contrib-nbextensions
+      
