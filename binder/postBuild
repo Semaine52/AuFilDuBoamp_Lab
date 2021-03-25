@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+jupyter serverextension enable --py nbgitpuller --sys-prefix
+
 #jupyter contrib nbextension install --user #rise
 #jupyter nbextension enable splitcell/splitcell #rise
 jupyter nbextension enable --py widgetsnbextension
