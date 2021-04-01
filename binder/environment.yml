@@ -4,6 +4,9 @@ channels:
   - default  
   - conda-forge
 dependencies:
+  - dask
+  - numba
+  - nltk
   - appmode
   - pip
   - python
